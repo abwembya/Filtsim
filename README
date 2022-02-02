@@ -1,0 +1,9 @@
+filtering of a signal using a butter-worth filter|
+obtain the dt between samples |
+the sample_ferq=1/dt|
+get the data of your pulse/signal|
+input it in your butter-worth band-pass filter|
+the low and high frequencies of the cut inputs must be divided by the nequist frequency which is half of the sampling freq i.e 0.5*1/dt|
+the total range of the plot of frequencies must be == to the total smpling frequency|
+will have a mirrored side at the end of the spectrum 180 reflected)
+#Butter-worth also does a good job with initializing the signal/preserving t=0 information|
